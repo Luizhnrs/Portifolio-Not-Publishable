@@ -7,5 +7,5 @@ const hero = () => {
         </div>
      )
 }
- 
 export default hero;
+//TODO This Hero page, consulting Doc
