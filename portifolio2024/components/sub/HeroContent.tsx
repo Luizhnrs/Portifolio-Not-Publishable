@@ -22,10 +22,26 @@ const HeroContent = () => {
             </motion.div>
             <motion.div
             variants={slideInFromLeft(0.5)}
-            className='flex flex-col gp-6 text-6xl text-bold text-white'
+            className='flex flex-col gp-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto'
+            >
+                Providing
+            <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> The Best </span>
+            Experience
+            </motion.div>
+            <motion.p 
+            variants={slideInFromLeft(0.8)}
+            className='text-lg text-gray-400 my-5 max-w-[600px] '
+            >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ullam dicta quas excepturi 
+                itaque tempora adipisci veritatis aspernatur beatae ab exercitationem 
+                praesentium molestiae, delectus, possimus unde consequatur et illo voluptatem.
+            </motion.p>
+            <motion.a
+            variants={slideInFromLeft(1)}
+            className='py-2'
             >
 
-            </motion.div>
+            </motion.a>
         </div>
     </motion.div>
   )
