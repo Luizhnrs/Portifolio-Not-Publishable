@@ -10,7 +10,8 @@ const HeroContent = () => {
     >
         <div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-start'>
             <motion.div
-                className='welcome-box py-[15px]'
+            variants={slideInFromTop}
+                className='welcome-box py-[15px] px-[4px] border border-[#7024f88b] opacity-[0.9]'
             >
 
             </motion.div>
