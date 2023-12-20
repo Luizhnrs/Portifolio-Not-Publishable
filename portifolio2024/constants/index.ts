@@ -170,20 +170,20 @@ export const Skill_data = [
     {
       skill_name: "C-Sharp",
       Image: "/C-Sharp.png",
-      width: 80,
-      height: 80,
+      width: 70,
+      height: 70,
     },
     {
-      skill_name: "SpringBoot",
-      Image: "/SpringBoot.png",
+      skill_name: "C++",
+      Image: "/C++.png",
       width: 70,
       height: 70,
     },
     {
       skill_name: "Mongo db",
       Image: "/mongodb.png",
-      width: 55,
-      height: 55,
+      width: 45,
+      height: 45,
     },
     {
       skill_name: "Postger SQL",
@@ -220,7 +220,7 @@ export const Skill_data = [
     },
     {
       skill_name: "SpringBoot",
-      Image: "/tauri.svg",
+      Image: "/SpringBoot.png",
       width: 70,
       height: 70,
     },
