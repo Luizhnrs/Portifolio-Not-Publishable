@@ -24,7 +24,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Software Developer
+            Software Engineer
           </h1>
         </motion.div>
 
@@ -49,11 +49,11 @@ const HeroContent = () => {
           I&apos;m a Software Engineer with experience in web development and
           back end applications. Check out my projects and skills.
         </motion.p>
-        <motion.a
+        <motion.a href="https://github.com/Luizhnrs"
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn More!
+          Learn More! 
         </motion.a>
       </div>
 
