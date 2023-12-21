@@ -13,19 +13,19 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src="/DiscordClone.png"
-          title="Discord Clone"
+          title="Discord Clone - Under development"
           description="
-          A Discord Clone made with Typescript, where the objective is to improve memory consumption on weaker machines"
+          A Discord Clone made with Typescript, where the objective is to improve memory consumption on weaker machines."
         />
         <ProjectCard
           src="/HypeCompanion.jpeg"
-          title="HypeCompanion - AI Chat"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="HypeCompanion(AI Chat) - Under development"
+          description="This Chat uses artificial intelligence for conversation, getting as close as possible to the personality of several celebrity minds, both from the tech world and other areas."
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/SoundFy.jpg"
+          title="Music App"
+          description="Music app inspired by Spotify, Typescript, React, PostgreSQL e Tailwind"
         />
       </div>
     </div>
